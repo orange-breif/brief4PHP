@@ -1,0 +1,38 @@
+/* this code is to style both creating user and creating product */
+/* creating error messages */
+.note {
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+    box-shadow: 0 0 10px #4886fa71;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+form {
+    width: 90%;
+}
+
+button:hover {
+    box-shadow: 0 0 10px #4887fa;
+    cursor: pointer;
+}
+
+/* user profile img */
+#profiledisplay {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    display: block;
+}
